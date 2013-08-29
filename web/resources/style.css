@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Calibri, Verdana, Arial;
+    color : #000000;
+    background:url('./images/Background.jpg') 0 0;
+}
+h1 {
+    margin: 0.4em 0 0.4em 0 ;
+    font-size:1.875em;
+}
+h2 {
+    margin: 0.4em 0 0.4em 0 ;
+    font-size:1.625em;
+}
+h3 {
+    margin: 0.4em 0 0.4em 0 ;
+    font-size:1.375em;
+}
+p{
+    margin: 0.7em 0 0.7em 0 ;
+    font-size:1.3em;
+    text-align:justify;
+}
+label {
+    margin: 0em 0 0em 0 ;
+    font-size:1.3em;
+    text-align:justify;
+}
+input:focus{
+    border:0.125em solid #002065;
+    box-shadow:0 0 0.3125em #002065;
+    outline: none;
+}
+ul.alpha{
+    display:inline;
+    list-style-image: url('./images/arrow01.png');
+    margin:0;
+    padding: 0;
+}
+a:link,a:visited {
+    color:#272275;text-decoration:none;
+}    
+a:hover,a:active {
+    color:blue;text-decoration:underline;
+}
+a.whitelink:link,a.whitelink:visited {
+	color:white;text-decoration:none;
+}    
+a.whitelink:hover,a.whitelink:active{
+	color:#dadafe;text-decoration:underline;
+}
+.invisible{
+    height: 0;
+    width: 0;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+    visibility:hidden;
+}
+.SendInputs{
+    padding: 0;
+}
+.CenterObject{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.AddListClicked{
+    font-size: 1.2em;
+}
+.DeleteButton{
+    margin: 0em 0em 0em 0em;
+    width:1em;
+}
+.SeriesWrap{
+    margin-top: 0.25em;
+    border:solid 0.0625em #002065;
+}
+.SeriesPanel,.SeriesTitle{
+    padding : 0.625em 0.625em 0.625em 0.625em;
+    background-color:#eff3f7;
+    border:solid 0.0625em #002065;
+    color:#002065;
+}
+.SeriesTitle{
+    font-size:1.125em;
+}
+.SeriesPanel{
+    padding : 0 1.25em 0 5em;
+    display:none;
+}
+.ArrayBoxes{  
+    font-size: 1.3em;
+    float:left;	
+    padding : 0em 0.4em 0em 0.4em;
+    margin : 0.2em 0.2em 0.2em 0.2em;
+    background-color:#eff3f7;
+    border:solid 0.0625em #002065;
+    border-radius:0.7em;
+    color:#002065;
+}
+
+#menu{
+    width:60em;
+    height:8.5em;
+    margin: 0;
+    padding: 0;
+    border: 0;    
+}
+#menulist1{
+    position:relative;
+    padding:0;
+    margin:0;
+    border: 0;
+    height:4.5em;
+}
+#menulist1 li{
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:absolute;
+    top:0;
+}
+#menulist1 li, #menulist1 a{
+    height:4.5em;
+    display:block;
+}
+#banner{
+    width:60em;
+    background:url('./images/Titles1.jpg') 0 -0.2em;
+}
+#banner a:hover{
+    width:60em;
+    background:url('./images/Titles2.jpg') 0 -0.2em;
+}
+#menulist2{
+    position:relative;
+    padding:0;
+    margin:0;
+    border: 0;
+    height:4em;
+}
+#menulist2 li{
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:absolute;
+    top:0;
+}
+#menulist2 li, #menulist2 a{
+    height:4em;
+    display:block;
+}
+#Series{
+    left:0em;
+    width:16em;
+    background:url('./images/Titles1.jpg') 0 4.5em;
+}
+#Series a:hover{
+    left:0em;
+    width:16em;
+    background:url('./images/Titles2.jpg') 0 4.5em;
+}
+#Artists{
+    left:16em;
+    width:24em;
+    background:url('./images/Titles1.jpg') -16em 4.5em;
+}
+#Artists a:hover{
+    left:16em;	
+    width:24em;
+    background:url('./images/Titles2.jpg') -16em 4.5em;
+}
+#Characters{
+    left:40em;	
+    width:20em;
+    background:url('./images/Titles1.jpg') -40em 4.5em;
+}
+#Characters a:hover{
+    left:40em;	
+    width:20em;
+    background:url('./images/Titles2.jpg') -40em 4.5em;
+}
+#backarea{
+    margin: 0 auto 0 auto;
+    padding-top:0;
+    text-align: center;	
+    width: 100%;
+}
+#bodyborder{
+    text-align:center;
+    padding-top:0;
+    background:#002065;
+    width: 61.5em;
+    height: 100%;
+    margin:0 auto 0 auto;
+}
+#sitebody{
+    padding-top:0;
+    text-align:left;
+    background-color:#ffffff;
+    width: 60em;
+    margin:0 auto 0 auto;
+}
+#sitepage{
+	padding: 0 4em 0em 3em;
+}
+#sitepage2{
+	padding: 0 6em 0em 5em;
+}
+#footer{
+    text-align: center;
+    padding:0;
+    margin:0;
+    border:0;
+    bottom:0;
+    background-color:#002065;
+}
+#BottomLine{
+    height:0.75em;
+    width:60em;
+    background-color:#002065;
+}
+
+
+
